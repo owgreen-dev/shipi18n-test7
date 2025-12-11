@@ -1,0 +1,21 @@
+# .github/workflows/translate.yml
+name: Translate
+on:
+  push:
+    paths: ['src/locales/en.json']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Shipi18n/shipi18n-github-action@v1
+        with:
+          api-key: ${{ secrets.SHIPI18N_API_KEY }}
+          source-file: src/locales/en.json
+          target-languages: es,fr,de
+          output-dir: src/locales
