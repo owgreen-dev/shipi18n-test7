@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Hogar",
+    "about": "Sobre nosotros",
+    "pricing": "Precios",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Construye algo asombroso",
+    "subtitle": "¡Bienvenido de nuevo, {{name}}!",
+    "cta": "Empieza gratis"
+  },
+  "auth": {
+    "login": "Acceso",
+    "signup": "Inscribirse",
+    "logout": "Finalizar la sesión",
+    "forgotPassword": "¿Has olvidado tu contraseña?"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "save": "Ahorrar",
+    "cancel": "Cancelar",
+    "delete": "Borrar",
+    "edit": "Editar"
+  },
+  "errors": {
+    "notFound": "Página no encontrada",
+    "serverError": "Algo salió mal",
+    "unauthorized": "Por favor, inicia sesión para continuar"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "Heim",
+    "about": "Über uns",
+    "pricing": "Preisgestaltung",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Erschaffe etwas Großartiges!",
+    "subtitle": "Willkommen zurück, {{name}}!",
+    "cta": "Jetzt kostenlos starten"
+  },
+  "auth": {
+    "login": "Einloggen",
+    "signup": "Melden Sie sich an",
+    "logout": "Abmelden",
+    "forgotPassword": "Passwort vergessen?"
+  },
+  "common": {
+    "loading": "Laden...",
+    "save": "Speichern",
+    "cancel": "Stornieren",
+    "delete": "Löschen",
+    "edit": "Bearbeiten"
+  },
+  "errors": {
+    "notFound": "Seite nicht gefunden",
+    "serverError": "Etwas ist schiefgelaufen.",
+    "unauthorized": "Bitte melden Sie sich an, um fortzufahren."
+  }
+}
